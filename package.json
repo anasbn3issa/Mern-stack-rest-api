@@ -1,0 +1,30 @@
+{
+  "name": "mern-stack-rest-api",
+  "version": "1.0.0",
+  "description": "rest api tuto",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anasbn3issa/Mern-stack-rest-api.git"
+  },
+  "author": "Anas BEN AISSA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anasbn3issa/Mern-stack-rest-api/issues"
+  },
+  "homepage": "https://github.com/anasbn3issa/Mern-stack-rest-api#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
